@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvar a Princesa no Reino Matemático</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('images/background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Salvar a Princesa no Reino Matemático</h1>
+        <p>No longínquo Reino Matemático, a princesa foi capturada por um dragão! 🐉 Para libertá-la, você deve resolver o enigma do Número Mágico! Este número é a chave do cativeiro onde está a princesa. Desvende o número e resgate-a!</p>
+        <div class="input-group">
+            <label for="magicNumber">Tente adivinhar o Número Mágico:</label>
+            <input type="number" id="magicNumber">
+        </div>
+        <button onclick="salvarPrincesa()">Tentar Resgate</button>
+        <div id="resultado"></div>
+        <div id="animacao"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
